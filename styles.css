@@ -271,3 +271,14 @@ details[open] summary::after { content:"–"; }
     padding: 0.4rem 0;
   }
 }
+/* Keep the Backbeat Highway wide image fully visible on phones */
+@media (max-width: 700px) {
+  .split-promo > img {
+    width: 100%;
+    height: auto;
+    min-height: 0;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+  }
+}
