@@ -3,8 +3,8 @@
   Fill these in before launch. Blank values are automatically hidden.
 */
 window.BACKBEAT_CONFIG = {
-  bookingEmail: "",
-  bookingPhone: "",
+  bookingEmail: "rdmason50@gmail.com",
+  bookingPhone: "(615) 596-2618",
   instagram: "",
   facebook: "",
   youtube: "",
