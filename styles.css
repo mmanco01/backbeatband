@@ -350,3 +350,56 @@ details[open] summary::after { content:"–"; }
 .member-card:nth-child(3) .member-photo img {
   object-position: center 8% !important;
 }
+/* ===== Larger, easier-to-read member bios ===== */
+
+.member-content p {
+  font-size: 1.08rem;
+  line-height: 1.65;
+}
+
+.member-content .member-role {
+  font-size: 0.82rem;
+  line-height: 1.4;
+}
+
+.member-content h3 {
+  font-size: 1.9rem;
+  line-height: 1.15;
+}
+
+.member-content summary {
+  font-size: 0.9rem;
+}
+
+.member-content .details-copy p {
+  font-size: 1.03rem;
+  line-height: 1.65;
+}
+
+.member-content .text-link {
+  font-size: 1rem;
+}
+
+/* Slightly larger still on phones */
+@media (max-width: 700px) {
+  .member-content p {
+    font-size: 1.1rem;
+    line-height: 1.65;
+  }
+
+  .member-content h3 {
+    font-size: 2rem;
+  }
+
+  .member-content .member-role {
+    font-size: 0.88rem;
+  }
+
+  .member-content .details-copy p {
+    font-size: 1.08rem;
+  }
+
+  .member-content summary {
+    font-size: 0.95rem;
+  }
+}
