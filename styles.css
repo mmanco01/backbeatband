@@ -418,3 +418,9 @@ details[open] summary::after { content:"–"; }
     font-size: 1.08rem;
   }
 }
+/* Portrait photos in gallery */
+.gallery-item.gallery-portrait img {
+  object-fit: contain;
+  object-position: center top;
+  background: #0d141b;
+}
