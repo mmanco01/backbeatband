@@ -380,26 +380,41 @@ details[open] summary::after { content:"–"; }
   font-size: 1rem;
 }
 
-/* Slightly larger still on phones */
+/* ===== Bigger bio text on phones ===== */
 @media (max-width: 700px) {
-  .member-content p {
-    font-size: 1.1rem;
-    line-height: 1.65;
+
+  .member-content {
+    padding: 1.35rem 1.2rem 1.5rem;
   }
 
   .member-content h3 {
-    font-size: 2rem;
+    font-size: 2.25rem;
+    line-height: 1.08;
+    margin-bottom: 0.8rem;
   }
 
   .member-content .member-role {
-    font-size: 0.88rem;
+    font-size: 1rem;
+    line-height: 1.45;
+    margin-bottom: 0.8rem;
+  }
+
+  .member-content p {
+    font-size: 1.25rem;
+    line-height: 1.7;
   }
 
   .member-content .details-copy p {
-    font-size: 1.08rem;
+    font-size: 1.2rem;
+    line-height: 1.7;
   }
 
   .member-content summary {
-    font-size: 0.95rem;
+    font-size: 1.05rem;
+    padding: 0.5rem 0;
+  }
+
+  .member-content .text-link {
+    font-size: 1.08rem;
   }
 }
